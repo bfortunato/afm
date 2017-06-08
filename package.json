@@ -1,0 +1,36 @@
+{
+  "name": "applica-file-merge",
+  "version": "1.0.0",
+  "description": "Recursive file merger and updater, copy a file, after a commit, to a destination if there are changes.",
+  "main": "build/afm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "build/afm.js",
+  "bin": {
+    "afm": "build/afm.js"
+  },
+  "keywords": [
+    "merge",
+    "update",
+    "project"
+  ],
+  "author": "Bruno Fortunato",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "diff": "^3.2.0",
+    "fs-extra": "^2.0.0",
+    "glob": "^7.1.1",
+    "isbinaryfile": "^3.0.2",
+    "pn": "^1.0.0",
+    "readline-sync": "^1.4.6",
+    "tmp": "0.0.31"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0"
+  }
+}
